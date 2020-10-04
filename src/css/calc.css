@@ -60,11 +60,6 @@ button {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  opacity: 0.8;
-}
-
-.push-btn:hover {
-    opacity: 1;
 }
 
 .alert-scs {
