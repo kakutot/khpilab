@@ -40,4 +40,29 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+<script src="/__/firebase/init.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDRpYOBdJyR49-Bd00flO7YRVE2-sMOzpQ",
+  authDomain: "chess-bf98e.firebaseapp.com",
+  databaseURL: "https://chess-bf98e.firebaseio.com",
+  projectId: "chess-bf98e",
+  storageBucket: "chess-bf98e.appspot.com",
+  messagingSenderId: "875156797471",
+  appId: "1:875156797471:web:2b6c5feb34392359b5bd2a"
+  };
+  // Initialize Firebase
+  if (!firebase.apps.length) {
+   firebase.initializeApp({});
+}
+</script>
 </html>

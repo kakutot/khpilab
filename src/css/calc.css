@@ -1,0 +1,78 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-wrapper {
+    width: 100%;
+    border: 2px solid gainsboro;
+}
+
+.input-error {
+    width: 100%;
+    border: 2px solid red;
+ }
+ 
+input[type=text] {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.calc {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc-item {
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    padding: 25px;
+}
+
+.calc-item:hover {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.calc-op {
+    color: white;
+    background-color: tomato;
+}
+
+button {
+    background-color: white;
+    text-align: center; 
+    line-height: 65px;
+    font-size: 25px;
+}
+
+.push-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  width: 100%;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.push-btn:hover {
+    opacity: 1;
+}
+
+.alert-scs {
+    width: 400px;
+    height: fit-content;
+    background-color: #00b300;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 14px;
+    margin: 5px;
+}

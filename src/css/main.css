@@ -1,0 +1,32 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    --border-radius-common: 16px;
+    --main-bg-color: #412134;
+    --main-txt-color: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.app {
+    line-height: 1.6;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn:not(:disabled):hover {
+    opacity: 1;
+}
